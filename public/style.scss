@@ -68,3 +68,19 @@ h1 {
 .logo {
   font-family: 'Lobster', cursive;
 }
+
+//intro
+.container {
+  .intro {
+    .intro-items {
+      .intro-text {
+        gap: 1rem;
+        h1 {
+          font-size: 1.5rem;
+        }
+        p {
+        }
+      }
+    }
+  }
+}
