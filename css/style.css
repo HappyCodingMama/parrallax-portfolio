@@ -67,3 +67,17 @@ h1 {
 .logo {
   font-family: "Lobster", cursive;
 }
+
+.container .intro .intro-items {
+  height: 100vh;
+  display: flex;
+}
+.container .intro .intro-items .intro-text {
+  gap: 1rem;
+}
+.container .intro .intro-items .intro-text h1 {
+  font-size: 1.5rem;
+}
+.container .intro .intro-items .intro-img-container {
+  flex: 3;
+}

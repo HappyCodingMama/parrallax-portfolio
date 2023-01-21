@@ -73,6 +73,8 @@ h1 {
 .container {
   .intro {
     .intro-items {
+      height: 100vh;
+      display: flex;
       .intro-text {
         gap: 1rem;
         h1 {
@@ -80,6 +82,9 @@ h1 {
         }
         p {
         }
+      }
+      .intro-img-container {
+        flex: 3;
       }
     }
   }
