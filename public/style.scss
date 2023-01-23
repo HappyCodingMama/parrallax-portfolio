@@ -75,8 +75,9 @@ h1 {
     .intro-items {
       height: 100vh;
       display: flex;
-      .intro-text {
+      .intro-text-container {
         gap: 1rem;
+        flex: 3;
         h1 {
           font-size: 1.5rem;
         }
@@ -84,7 +85,7 @@ h1 {
         }
       }
       .intro-img-container {
-        flex: 3;
+        flex: 1;
       }
     }
   }

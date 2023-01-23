@@ -72,12 +72,13 @@ h1 {
   height: 100vh;
   display: flex;
 }
-.container .intro .intro-items .intro-text {
+.container .intro .intro-items .intro-text-container {
   gap: 1rem;
+  flex: 3;
 }
-.container .intro .intro-items .intro-text h1 {
+.container .intro .intro-items .intro-text-container h1 {
   font-size: 1.5rem;
 }
 .container .intro .intro-items .intro-img-container {
-  flex: 3;
+  flex: 1;
 }
