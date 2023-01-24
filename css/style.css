@@ -80,5 +80,41 @@ h1 {
   font-size: 1.5rem;
 }
 .container .intro .intro-items .intro-img-container {
+  position: relative;
   flex: 1;
+}
+.container .intro .intro-items .intro-img-container .shape-1 {
+  top: 150px;
+  right: 240px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  z-index: -1;
+  animation: shapeAni 3s linear infinite alternate;
+}
+@keyframes shapeAni {
+  0% {
+    transform: translateY(40px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0.4turn);
+  }
+}
+.container .intro .intro-items .intro-img-container .shape-2 {
+  bottom: 150px;
+  right: 140px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  z-index: -1;
+  animation: shapeAni 3s linear infinite alternate;
+}
+.container .intro .intro-items .intro-img-container .shape-3 {
+  bottom: 50px;
+  left: 44px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  z-index: -1;
+  animation: shapeAni 3s linear infinite alternate;
 }
