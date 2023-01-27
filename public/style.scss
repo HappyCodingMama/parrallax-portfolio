@@ -75,6 +75,7 @@ h1 {
     .intro-items {
       height: 100vh;
       display: flex;
+      overflow: hidden;
       .intro-text-container {
         gap: 1rem;
         flex: 3;
