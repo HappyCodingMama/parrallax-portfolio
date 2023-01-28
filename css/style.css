@@ -119,8 +119,12 @@ h1 {
   z-index: -1;
   animation: shapeAni 3s linear infinite alternate;
 }
-.container .intro .intro-items .education-container {
+.container .intro .education-container {
   height: 100vh;
   background-color: var(--color-light);
   color: var(--color-bg);
+}
+.container .intro .education-container .education-items {
+  font-size: 20vw;
+  line-height: 100vh;
 }
