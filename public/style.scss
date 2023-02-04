@@ -142,8 +142,10 @@ h1 {
       .project-item {
       }
       .dark {
+        background-color: var(--color-bg-variant);
       }
       .light {
+        background-color: var(--color-primary-dark);
       }
     }
   }
