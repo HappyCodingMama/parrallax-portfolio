@@ -60,7 +60,7 @@ a {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 10vw;
   font-weight: 400;
 }
 
@@ -127,4 +127,17 @@ h1 {
 .container .intro .education-container .education-items {
   font-size: 20vw;
   line-height: 100vh;
+}
+.container .project-container {
+  height: 100vh;
+}
+.container .project-container .project-item {
+  font-size: 10vw;
+  line-height: 100vh;
+}
+.container .project-container .dark {
+  background-color: var(--color-bg-variant);
+}
+.container .project-container .light {
+  background-color: var(--color-primary-dark);
 }
