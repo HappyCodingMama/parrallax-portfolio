@@ -136,19 +136,21 @@ h1 {
       }
     }
   }
-  .projects {
-    .project-container {
-      height: 100vh;
-      .project-item {
-      }
-      .dark {
-        background-color: var(--color-bg-variant);
-      }
-      .light {
-        background-color: var(--color-primary-dark);
-      }
+
+  .project-container {
+    height: 100vh;
+    .project-item {
+      font-size: 10vw;
+      line-height: 100vh;
+    }
+    .dark {
+      background-color: var(--color-bg-variant);
+    }
+    .light {
+      background-color: var(--color-primary-dark);
     }
   }
+
   .skills {
   }
   .contact {
